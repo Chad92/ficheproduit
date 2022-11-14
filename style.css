@@ -9,12 +9,15 @@
 }
 
 body {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
 }
-
+h1 {
+    text-align: center;
+    font-size: 90px;
+}
 .card {
     position: relative;
     width: 600px;
