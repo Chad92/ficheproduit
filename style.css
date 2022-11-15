@@ -14,9 +14,46 @@ body {
     align-items: center;
     min-height: 100vh;
 }
-h1 {
+.clc {
     text-align: center;
     font-size: 90px;
+    color: #d83133;  
+    animation-name: rotate;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-25px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+  }
+.omg {
+    text-align: center;
+    font-size: 90px;
+    color: #0065c3;  
+    animation-name: rotate;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-25px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
 }
 .card {
     position: relative;
@@ -64,7 +101,7 @@ h1 {
 }
 .card:hover img {
  left: 75%;
- height: 500px;
+ height: 400px;
 }
 .card .content {
     position: relative;
@@ -79,6 +116,7 @@ h1 {
     left: 0%;
     opacity: 1;
     visibility: visible;
+    animation-iteration-count: infinite;
 
 }
 
